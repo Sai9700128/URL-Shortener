@@ -78,10 +78,6 @@ OAuth2 login (Google, GitHub).
 ✨ Contributing
 
 Contributions are welcome!
-Feel free to fork the repository, open issues, or submit pull requests.
+Feel free to fork the repository, open issues, or submit pull requests
 
-🛡️ License
-
-This project is licensed under the MIT License.
-
-🚀 Made with 💻 by [Your Name]
+🚀 Made with 💻 by Kalyan
