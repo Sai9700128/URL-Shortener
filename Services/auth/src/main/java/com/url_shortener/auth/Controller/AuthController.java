@@ -26,10 +26,11 @@ public class AuthController {
         return ResponseEntity.ok(authService.authenticate(request));
     }
 
-    @PostMapping("/refresh-token")
-    public ResponseEntity<AuthResponse> refreshToken(@RequestBody String refreshToken) {
-        return ResponseEntity.ok(authService.refreshToken(refreshToken));
-    }
+    // @PostMapping("/refresh-token")
+    // public ResponseEntity<AuthResponse> refreshToken(@RequestBody String
+    // refreshToken) {
+    // return ResponseEntity.ok(authService.refreshToken(refreshToken));
+    // }
 
     @GetMapping("/healthz")
     public ResponseEntity<String> healthCheck() {
