@@ -40,27 +40,30 @@ Ready for CI/CD integration and cloud deployment.
 **Service1**
 
 url-shortener-system/
-│
-├── auth-service/        
-├── README.md            
+- │
+- ├── auth-service/        
+- ├── README.md            
 
 **Service2**
 
 url-shortener-system/
-│
-├── api-service/        
-├── README.md
+- │
+- ├── api-service/        
+- ├── README.md
 
 **Service3**
 
 url-shortener-system/
-│
-├── analytics-service/
-├── README.md            
+- │
+- ├── analytics-service/
+- ├── README.md            
 
 ## ⚙️ How to Run Locally
 
 Clone the repository
+
+<img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+
 ```git clone <repository url>```
 
 cd url-shortener-system
