@@ -46,7 +46,6 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers("/healthz").permitAll()
-                        .requestMatchers("/actuator/**").permitAll()
                         // All other endpoints require authentication (but no specific role)
                         .anyRequest().authenticated())
                 .sessionManagement(session -> session
