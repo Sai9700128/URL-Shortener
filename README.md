@@ -69,23 +69,14 @@ Build the services
 
 ./mvnw clean install
 
-Run with Docker Compose
-docker-compose up --build
-Access the services
-
-Authentication Service: http://localhost:8081/api/auth
-API Service: http://localhost:8082/api/url
-Analytics Service: http://localhost:8083/api/analytics
-
 
 
 ## 📈 Future Improvements
 
-``Expiry settings for short URLs.
-User-specific URL dashboard.
-Geo-location and browser-level analytics.
-Kubernetes deployment support (K8s YAMLs).
-OAuth2 login (Google, GitHub).``
+- Expiry settings for short URLs.
+- User-specific URL dashboard.
+- Kubernetes deployment support (K8s YAMLs).
+- OAuth2 login (Google, GitHub).``
 
 ✨ Contributing
 
